@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: blue;
+    height: 5px;
+}
+
+.p01{
+    column-count: 3;
+}
+
+.p02{
+    column-count: 4;
+}
+
+.p03{
+    column-count: 2;
+}
+
+h1,h2,hr,img{
+    margin: 30px;
+    color: blue;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+p{
+    column-gap: 40px;
+    column-rule: 2px solid blue;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+}
+
+img{
+    float: left;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+body {
+    background: linear-gradient(to right, #3498db, #f1c40f);
+}
+
+ul, ol{
+    margin: 45px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#goUp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 10px;
+    background-color: #00f285;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+#goUp:hover {
+    background-color: #43b929;
+}
+
+#goDown {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+#goDown:hover {
+    background-color: #c0392b;
+}
+
+hr{
+    color: blue;
+}
